@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="itext7" Version="7.2.0" />
+    <PackageReference Include="LINQKit.Core" Version="1.1.27" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MiComunidadPro.Common\MiComunidadPro.Common.csproj" />
+    <ProjectReference Include="..\MiComunidadPro.Business.Entities\MiComunidadPro.Business.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
